@@ -230,3 +230,10 @@ def quick3_print():
             quick1(x, 0, len(x)-1)
             sum += time.time() - start
         print('Quick3 Random', n[i], ':', sum / 10)
+bubble()
+selection()
+insertion()
+merge_print()
+quick1_print()
+quick2_print()
+quick3_print()
